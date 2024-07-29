@@ -7,12 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @Slf4j
-public class Main {
+public class CatsgramApplication {
     public static void main(String[] args) {
-
-
         log.info("Старт программы");
-        SpringApplication.run(Main.class, args);
-
+        SpringApplication.run(CatsgramApplication.class, args);
     }
 }
